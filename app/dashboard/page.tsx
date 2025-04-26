@@ -98,18 +98,22 @@ const recentActivity = [
 
 // Sidebar analytics nav options
 const analyticsNav = [
+  { key: 'home', label: 'Home', icon: <HomeIcon className="h-6 w-6" />, href: '/' },
   { key: 'stats', label: 'Stats', icon: <ArrowTrendingUpIcon className="h-6 w-6" /> },
   { key: 'bar', label: 'Bar Chart', icon: <ChartBarIcon className="h-6 w-6" /> },
   { key: 'pie', label: 'Pie Chart', icon: <ChartPieIcon className="h-6 w-6" /> },
   { key: 'features', label: 'Features', icon: <DocumentTextIcon className="h-6 w-6" /> },
   { key: 'activity', label: 'Recent Activity', icon: <ArrowPathIcon className="h-6 w-6" /> },
-  { key: 'home', label: 'Home', icon: <HomeIcon className="h-6 w-6" />, href: '/' },
 ];
 
 export default function Dashboard() {
   const [data, setData] = useState(initialData);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [selected, setSelected] = useState('stats');
+
+  type BlockKey = keyof typeof blocks;
+
+
 
   // Simulate real-time updates
   useEffect(() => {
@@ -135,6 +139,7 @@ export default function Dashboard() {
   ];
 
   // Analytics blocks
+
   const blocks = {
     stats: (
       <motion.div
@@ -205,11 +210,11 @@ export default function Dashboard() {
           <span className="text-xl font-semibold">Feature Usage Distribution</span>
         </div>
         <svg width="180" height="180" viewBox="0 0 180 180">
-          <g transform="translate(90,90)">
-            {pieData.reduce((acc, d, i) => {
+        <g transform="translate(90,90)">
+            {pieData.reduce<[number, JSX.Element[]]>((acc, d, i) => {
               const [startAngle, paths] = acc;
               const angle = (d.percent / 100) * 2 * Math.PI;
-              const endAngle = startAngle + angle;
+              const endAngle = startAngle + angle; // ✅ NO parseInt needed
               const x1 = 80 * Math.cos(startAngle - Math.PI / 2);
               const y1 = 80 * Math.sin(startAngle - Math.PI / 2);
               const x2 = 80 * Math.cos(endAngle - Math.PI / 2);
@@ -234,7 +239,7 @@ export default function Dashboard() {
                 />
               );
               return [endAngle, paths];
-            }, [0, [] as JSX.Element[]])[1]}
+            }, [0, []])[1]}
           </g>
         </svg>
         <div className="mt-4 flex flex-col gap-1">
@@ -405,12 +410,13 @@ export default function Dashboard() {
 
       {/* Main Content: Show selected analytics block */}
       <div className="flex-1 flex flex-col justify-center items-center h-screen max-h-screen overflow-hidden">
-        <div className="w-full max-w-4xl h-full flex flex-col items-center justify-center">
-          <AnimatePresence mode="wait">
-            {blocks[selected]}
-          </AnimatePresence>
-        </div>
+      <div className="w-full max-w-4xl h-full flex flex-col items-center justify-center">
+        <AnimatePresence mode="wait">
+         {/* @ts-ignore */}
+          {blocks[selected]}
+        </AnimatePresence>
       </div>
+    </div>
     </main>
   );
 } 
