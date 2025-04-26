@@ -1,0 +1,4741 @@
+[
+    { "name": "Bohemian Rhapsody", "industry": "Song - Queen" },
+    { "name": "Eiffel Tower", "industry": "Tourist Place - France" },
+    { "name": "ChatGPT", "industry": "LLM - OpenAI" },
+    { "name": "Tesla Model S", "industry": "Car - Tesla" },
+    { "name": "Airbus A380", "industry": "Airplane - Airbus" },
+    { "name": "Boston Dynamics Spot", "industry": "Robot - Boston Dynamics" },
+    { "name": "Siberian Husky", "industry": "Dog - Breed" },
+    { "name": "Ragdoll", "industry": "Cat - Breed" },
+    { "name": "The Godfather", "industry": "Movie - Crime Drama" },
+    { "name": "Burj Khalifa", "industry": "Tourist Place - UAE" },
+    { "name": "Stairway to Heaven", "industry": "Song - Led Zeppelin" },
+    { "name": "Titanic", "industry": "Movie - Romance" },
+    { "name": "Golden Retriever", "industry": "Dog - Breed" },
+    { "name": "Ferrari LaFerrari", "industry": "Car - Ferrari" },
+    { "name": "Boeing 747", "industry": "Airplane - Boeing" },
+    { "name": "Claude 3", "industry": "LLM - Anthropic" },
+    { "name": "Mount Everest", "industry": "Tourist Place - Nepal" },
+    { "name": "Imagine", "industry": "Song - John Lennon" },
+    { "name": "Inception", "industry": "Movie - Sci-Fi" },
+    { "name": "Persian", "industry": "Cat - Breed" },
+    { "name": "Porsche 911", "industry": "Car - Porsche" },
+    { "name": "Bell X-1", "industry": "Airplane - Bell Aircraft" },
+    { "name": "Gemini", "industry": "LLM - Google DeepMind" },
+    { "name": "Grand Canyon", "industry": "Tourist Place - USA" },
+    { "name": "Hotel California", "industry": "Song - Eagles" },
+    { "name": "Interstellar", "industry": "Movie - Sci-Fi" },
+    { "name": "Bengal", "industry": "Cat - Breed" },
+    { "name": "Lamborghini Aventador", "industry": "Car - Lamborghini" },
+    { "name": "Concorde", "industry": "Airplane - British-French" },
+    { "name": "LLaMA 2", "industry": "LLM - Meta" },
+    { "name": "Great Wall of China", "industry": "Tourist Place - China" },
+    { "name": "Anantapur", "industry": "State - Andhra Pradesh" },
+  { "name": "Chittoor", "industry": "State - Andhra Pradesh" },
+  { "name": "East Godavari", "industry": "State - Andhra Pradesh" },
+  { "name": "Guntur", "industry": "State - Andhra Pradesh" },
+  { "name": "Krishna", "industry": "State - Andhra Pradesh" },
+  { "name": "Kurnool", "industry": "State - Andhra Pradesh" },
+  { "name": "Nellore", "industry": "State - Andhra Pradesh" },
+  { "name": "Prakasam", "industry": "State - Andhra Pradesh" },
+  { "name": "Srikakulam", "industry": "State - Andhra Pradesh" },
+  { "name": "Visakhapatnam", "industry": "State - Andhra Pradesh" },
+  { "name": "Vizianagaram", "industry": "State - Andhra Pradesh" },
+  { "name": "West Godavari", "industry": "State - Andhra Pradesh" },
+  { "name": "YSR Kadapa", "industry": "State - Andhra Pradesh" },
+  
+  { "name": "Anjaw", "industry": "State - Arunachal Pradesh" },
+  { "name": "Changlang", "industry": "State - Arunachal Pradesh" },
+  { "name": "Dibang Valley", "industry": "State - Arunachal Pradesh" },
+  { "name": "East Kameng", "industry": "State - Arunachal Pradesh" },
+  { "name": "East Siang", "industry": "State - Arunachal Pradesh" },
+  { "name": "Kamle", "industry": "State - Arunachal Pradesh" },
+  { "name": "Kra Daadi", "industry": "State - Arunachal Pradesh" },
+  { "name": "Kurung Kumey", "industry": "State - Arunachal Pradesh" },
+  { "name": "Lepa Rada", "industry": "State - Arunachal Pradesh" },
+  { "name": "Lohit", "industry": "State - Arunachal Pradesh" },
+  { "name": "Longding", "industry": "State - Arunachal Pradesh" },
+  { "name": "Lower Dibang Valley", "industry": "State - Arunachal Pradesh" },
+  { "name": "Lower Siang", "industry": "State - Arunachal Pradesh" },
+  { "name": "Lower Subansiri", "industry": "State - Arunachal Pradesh" },
+  { "name": "Namsai", "industry": "State - Arunachal Pradesh" },
+  { "name": "Pakke Kessang", "industry": "State - Arunachal Pradesh" },
+  { "name": "Papum Pare", "industry": "State - Arunachal Pradesh" },
+  { "name": "Shi Yomi", "industry": "State - Arunachal Pradesh" },
+  { "name": "Siang", "industry": "State - Arunachal Pradesh" },
+  { "name": "Tawang", "industry": "State - Arunachal Pradesh" },
+  { "name": "Tirap", "industry": "State - Arunachal Pradesh" },
+  { "name": "Upper Siang", "industry": "State - Arunachal Pradesh" },
+  { "name": "Upper Subansiri", "industry": "State - Arunachal Pradesh" },
+  { "name": "West Kameng", "industry": "State - Arunachal Pradesh" },
+  { "name": "West Siang", "industry": "State - Arunachal Pradesh" },
+  
+  { "name": "Baksa", "industry": "State - Assam" },
+  { "name": "Barpeta", "industry": "State - Assam" },
+  { "name": "Biswanath", "industry": "State - Assam" },
+  { "name": "Bongaigaon", "industry": "State - Assam" },
+  { "name": "Cachar", "industry": "State - Assam" },
+  { "name": "Charaideo", "industry": "State - Assam" },
+  { "name": "Chirang", "industry": "State - Assam" },
+  { "name": "Darrang", "industry": "State - Assam" },
+  { "name": "Dhemaji", "industry": "State - Assam" },
+  { "name": "Dhubri", "industry": "State - Assam" },
+  { "name": "Dibrugarh", "industry": "State - Assam" },
+  { "name": "Dima Hasao", "industry": "State - Assam" },
+  { "name": "Goalpara", "industry": "State - Assam" },
+  { "name": "Golaghat", "industry": "State - Assam" },
+  { "name": "Hailakandi", "industry": "State - Assam" },
+  { "name": "Hojai", "industry": "State - Assam" },
+  { "name": "Jorhat", "industry": "State - Assam" },
+  { "name": "Kamrup", "industry": "State - Assam" },
+  { "name": "Kamrup Metropolitan", "industry": "State - Assam" },
+  { "name": "Karbi Anglong", "industry": "State - Assam" },
+  { "name": "Karimganj", "industry": "State - Assam" },
+  { "name": "Kokrajhar", "industry": "State - Assam" },
+  { "name": "Lakhimpur", "industry": "State - Assam" },
+  { "name": "Majuli", "industry": "State - Assam" },
+  { "name": "Morigaon", "industry": "State - Assam" },
+  { "name": "Nagaon", "industry": "State - Assam" },
+  { "name": "Nalbari", "industry": "State - Assam" },
+  { "name": "Sivasagar", "industry": "State - Assam" },
+  { "name": "Sonitpur", "industry": "State - Assam" },
+  { "name": "South Salmara-Mankachar", "industry": "State - Assam" },
+  { "name": "Tinsukia", "industry": "State - Assam" },
+  { "name": "Udalguri", "industry": "State - Assam" },
+  { "name": "West Karbi Anglong", "industry": "State - Assam" },
+  
+  { "name": "Araria", "industry": "State - Bihar" },
+  { "name": "Arwal", "industry": "State - Bihar" },
+  { "name": "Aurangabad", "industry": "State - Bihar" },
+  { "name": "Banka", "industry": "State - Bihar" },
+  { "name": "Begusarai", "industry": "State - Bihar" },
+  { "name": "Bhagalpur", "industry": "State - Bihar" },
+  { "name": "Bhojpur", "industry": "State - Bihar" },
+  { "name": "Buxar", "industry": "State - Bihar" },
+  { "name": "Darbhanga", "industry": "State - Bihar" },
+  { "name": "East Champaran", "industry": "State - Bihar" },
+  { "name": "Gaya", "industry": "State - Bihar" },
+  { "name": "Gopalganj", "industry": "State - Bihar" },
+  { "name": "Jamui", "industry": "State - Bihar" },
+  { "name": "Jehanabad", "industry": "State - Bihar" },
+  { "name": "Kaimur", "industry": "State - Bihar" },
+  { "name": "Katihar", "industry": "State - Bihar" },
+  { "name": "Khagaria", "industry": "State - Bihar" },
+  { "name": "Kishanganj", "industry": "State - Bihar" },
+  { "name": "Lakhisarai", "industry": "State - Bihar" },
+  { "name": "Madhepura", "industry": "State - Bihar" },
+  { "name": "Madhubani", "industry": "State - Bihar" },
+  { "name": "Munger", "industry": "State - Bihar" },
+  { "name": "Muzaffarpur", "industry": "State - Bihar" },
+  { "name": "Nalanda", "industry": "State - Bihar" },
+  { "name": "Nawada", "industry": "State - Bihar" },
+  { "name": "Patna", "industry": "State - Bihar" },
+  { "name": "Purnia", "industry": "State - Bihar" },
+  { "name": "Rohtas", "industry": "State - Bihar" },
+  { "name": "Saharsa", "industry": "State - Bihar" },
+  { "name": "Samastipur", "industry": "State - Bihar" },
+  { "name": "Saran", "industry": "State - Bihar" },
+  { "name": "Sheikhpura", "industry": "State - Bihar" },
+  { "name": "Sheohar", "industry": "State - Bihar" },
+  { "name": "Sitamarhi", "industry": "State - Bihar" },
+  { "name": "Siwan", "industry": "State - Bihar" },
+  { "name": "Supaul", "industry": "State - Bihar" },
+  { "name": "Vaishali", "industry": "State - Bihar" },
+  { "name": "West Champaran", "industry": "State - Bihar" },
+  
+  { "name": "Balod", "industry": "State - Chhattisgarh" },
+  { "name": "Baloda Bazar", "industry": "State - Chhattisgarh" },
+  { "name": "Balrampur", "industry": "State - Chhattisgarh" },
+  { "name": "Bastar", "industry": "State - Chhattisgarh" },
+  { "name": "Bemetara", "industry": "State - Chhattisgarh" },
+  { "name": "Bijapur", "industry": "State - Chhattisgarh" },
+  { "name": "Bilaspur", "industry": "State - Chhattisgarh" },
+  { "name": "Dantewada", "industry": "State - Chhattisgarh" },
+  { "name": "Dhamtari", "industry": "State - Chhattisgarh" },
+  { "name": "Durg", "industry": "State - Chhattisgarh" },
+  { "name": "Gariaband", "industry": "State - Chhattisgarh" },
+  { "name": "Janjgir-Champa", "industry": "State - Chhattisgarh" },
+  { "name": "Jashpur", "industry": "State - Chhattisgarh" },
+  { "name": "Kabirdham", "industry": "State - Chhattisgarh" },
+  { "name": "Kanker", "industry": "State - Chhattisgarh" },
+  { "name": "Kondagaon", "industry": "State - Chhattisgarh" },
+  { "name": "Korba", "industry": "State - Chhattisgarh" },
+  { "name": "Koriya", "industry": "State - Chhattisgarh" },
+  { "name": "Mahasamund", "industry": "State - Chhattisgarh" },
+  { "name": "Mungeli", "industry": "State - Chhattisgarh" },
+  { "name": "Narayanpur", "industry": "State - Chhattisgarh" },
+  { "name": "Raigarh", "industry": "State - Chhattisgarh" },
+  { "name": "Raipur", "industry": "State - Chhattisgarh" },
+  { "name": "Rajnandgaon", "industry": "State - Chhattisgarh" },
+  { "name": "Sukma", "industry": "State - Chhattisgarh" },
+  { "name": "Surajpur", "industry": "State - Chhattisgarh" },
+  { "name": "Surguja", "industry": "State - Chhattisgarh" },
+  
+  { "name": "North Goa", "industry": "State - Goa" },
+  { "name": "South Goa", "industry": "State - Goa" },
+  
+  { "name": "Ahmedabad", "industry": "State - Gujarat" },
+  { "name": "Amreli", "industry": "State - Gujarat" },
+  { "name": "Anand", "industry": "State - Gujarat" },
+  { "name": "Aravalli", "industry": "State - Gujarat" },
+  { "name": "Banaskantha", "industry": "State - Gujarat" },
+  { "name": "Bharuch", "industry": "State - Gujarat" },
+  { "name": "Bhavnagar", "industry": "State - Gujarat" },
+  { "name": "Botad", "industry": "State - Gujarat" },
+  { "name": "Chhota Udaipur", "industry": "State - Gujarat" },
+  { "name": "Dahod", "industry": "State - Gujarat" },
+  { "name": "Dang", "industry": "State - Gujarat" },
+  { "name": "Devbhoomi Dwarka", "industry": "State - Gujarat" },
+  { "name": "Gandhinagar", "industry": "State - Gujarat" },
+  { "name": "Gir Somnath", "industry": "State - Gujarat" },
+  { "name": "Jamnagar", "industry": "State - Gujarat" },
+  { "name": "Junagadh", "industry": "State - Gujarat" },
+  { "name": "Kheda", "industry": "State - Gujarat" },
+  { "name": "Kutch", "industry": "State - Gujarat" },
+  { "name": "Mahisagar", "industry": "State - Gujarat" },
+  { "name": "Mehsana", "industry": "State - Gujarat" },
+  { "name": "Morbi", "industry": "State - Gujarat" },
+  { "name": "Narmada", "industry": "State - Gujarat" },
+  { "name": "Navsari", "industry": "State - Gujarat" },
+  { "name": "Panchmahal", "industry": "State - Gujarat" },
+  { "name": "Patan", "industry": "State - Gujarat" },
+  { "name": "Porbandar", "industry": "State - Gujarat" },
+  { "name": "Rajkot", "industry": "State - Gujarat" },
+  { "name": "Sabarkantha", "industry": "State - Gujarat" },
+  { "name": "Surat", "industry": "State - Gujarat" },
+  { "name": "Surendranagar", "industry": "State - Gujarat" },
+  { "name": "Tapi", "industry": "State - Gujarat" },
+  { "name": "Vadodara", "industry": "State - Gujarat" },
+  { "name": "Valsad", "industry": "State - Gujarat" },
+  
+  { "name": "Ambala", "industry": "State - Haryana" },
+  { "name": "Bhiwani", "industry": "State - Haryana" },
+  { "name": "Charkhi Dadri", "industry": "State - Haryana" },
+  { "name": "Faridabad", "industry": "State - Haryana" },
+  { "name": "Fatehabad", "industry": "State - Haryana" },
+  { "name": "Gurugram", "industry": "State - Haryana" },
+  { "name": "Hisar", "industry": "State - Haryana" },
+  { "name": "Jhajjar", "industry": "State - Haryana" },
+  { "name": "Jind", "industry": "State - Haryana" },
+  { "name": "Kaithal", "industry": "State - Haryana" },
+  { "name": "Karnal", "industry": "State - Haryana" },
+  { "name": "Kurukshetra", "industry": "State - Haryana" },
+  { "name": "Mahendragarh", "industry": "State - Haryana" },
+  { "name": "Nuh", "industry": "State - Haryana" },
+  { "name": "Palwal", "industry": "State - Haryana" },
+  { "name": "Panchkula", "industry": "State - Haryana" },
+  { "name": "Panipat", "industry": "State - Haryana" },
+  { "name": "Rewari", "industry": "State - Haryana" },
+  { "name": "Rohtak", "industry": "State - Haryana" },
+  { "name": "Sirsa", "industry": "State - Haryana" },
+  { "name": "Sonipat", "industry": "State - Haryana" },
+  { "name": "Yamunanagar", "industry": "State - Haryana" },
+  
+  { "name": "Bilaspur", "industry": "State - Himachal Pradesh" },
+  { "name": "Chamba", "industry": "State - Himachal Pradesh" },
+  { "name": "Hamirpur", "industry": "State - Himachal Pradesh" },
+  { "name": "Kangra", "industry": "State - Himachal Pradesh" },
+  { "name": "Kinnaur", "industry": "State - Himachal Pradesh" },
+  { "name": "Kullu", "industry": "State - Himachal Pradesh" },
+  { "name": "Lahaul and Spiti", "industry": "State - Himachal Pradesh" },
+  { "name": "Mandi", "industry": "State - Himachal Pradesh" },
+  { "name": "Shimla", "industry": "State - Himachal Pradesh" },
+  { "name": "Sirmaur", "industry": "State - Himachal Pradesh" },
+  { "name": "Solan", "industry": "State - Himachal Pradesh" },
+  { "name": "Una", "industry": "State - Himachal Pradesh" },
+  
+  { "name": "Anantnag", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Bandipora", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Baramulla", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Budgam", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Doda", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Ganderbal", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Jammu", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Kathua", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Kishtwar", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Kulgam", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Kupwara", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Poonch", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Pulwama", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Rajouri", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Ramban", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Reasi", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Samba", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Shopian", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Srinagar", "industry": "UT - Jammu and Kashmir" },
+  { "name": "Udhampur", "industry": "UT - Jammu and Kashmir" },
+  
+  { "name": "Bokaro", "industry": "State - Jharkhand" },
+  { "name": "Chatra", "industry": "State - Jharkhand" },
+  { "name": "Deoghar", "industry": "State - Jharkhand" },
+  { "name": "Dhanbad", "industry": "State - Jharkhand" },
+  { "name": "Dumka", "industry": "State - Jharkhand" },
+  { "name": "East Singhbhum", "industry": "State - Jharkhand" },
+  { "name": "Garhwa", "industry": "State - Jharkhand" },
+  { "name": "Giridih", "industry": "State - Jharkhand" },
+  { "name": "Godda", "industry": "State - Jharkhand" },
+  { "name": "Gumla", "industry": "State - Jharkhand" },
+  { "name": "Hazaribagh", "industry": "State - Jharkhand" },
+  { "name": "Jamtara", "industry": "State - Jharkhand" },
+  { "name": "Khunti", "industry": "State - Jharkhand" },
+  { "name": "Koderma", "industry": "State - Jharkhand" },
+  { "name": "Latehar", "industry": "State - Jharkhand" },
+  { "name": "Lohardaga", "industry": "State - Jharkhand" },
+  { "name": "Pakur", "industry": "State - Jharkhand" },
+  { "name": "Palamu", "industry": "State - Jharkhand" },
+  { "name": "Ramgarh", "industry": "State - Jharkhand" },
+  { "name": "Ranchi", "industry": "State - Jharkhand" },
+  { "name": "Sahibganj", "industry": "State - Jharkhand" },
+  { "name": "Seraikela Kharsawan", "industry": "State - Jharkhand" },
+  { "name": "Simdega", "industry": "State - Jharkhand" },
+  { "name": "West Singhbhum", "industry": "State - Jharkhand" },
+  
+  { "name": "Bagalkot", "industry": "State - Karnataka" },
+  { "name": "Ballari", "industry": "State - Karnataka" },
+  { "name": "Belagavi", "industry": "State - Karnataka" },
+  { "name": "Bengaluru Rural", "industry": "State - Karnataka" },
+  { "name": "Bengaluru Urban", "industry": "State - Karnataka" },
+  { "name": "Bidar", "industry": "State - Karnataka" },
+  { "name": "Chamarajanagar", "industry": "State - Karnataka" },
+  { "name": "Chikballapur", "industry": "State - Karnataka" },
+  { "name": "Chikkamagaluru", "industry": "State - Karnataka" },
+  { "name": "Chitradurga", "industry": "State - Karnataka" },
+  { "name": "Dakshina Kannada", "industry": "State - Karnataka" },
+  { "name": "Davangere", "industry": "State - Karnataka" },
+  { "name": "Dharwad", "industry": "State - Karnataka" },
+  { "name": "Gadag", "industry": "State - Karnataka" },
+  { "name": "Hassan", "industry": "State - Karnataka" },
+  { "name": "Haveri", "industry": "State - Karnataka" },
+  { "name": "Kalaburagi", "industry": "State - Karnataka" },
+  { "name": "Kodagu", "industry": "State - Karnataka" },
+  { "name": "Kolar", "industry": "State - Karnataka" },
+  { "name": "Koppal", "industry": "State - Karnataka" },
+  { "name": "Mandya", "industry": "State - Karnataka" },
+  { "name": "Mysuru", "industry": "State - Karnataka" },
+  { "name": "Raichur", "industry": "State - Karnataka" },
+  { "name": "Ramanagara", "industry": "State - Karnataka" },
+  { "name": "Shivamogga", "industry": "State - Karnataka" },
+  { "name": "Tumakuru", "industry": "State - Karnataka" },
+  { "name": "Udupi", "industry": "State - Karnataka" },
+  { "name": "Uttara Kannada", "industry": "State - Karnataka" },
+  { "name": "Vijayapura", "industry": "State - Karnataka" },
+  { "name": "Yadgir", "industry": "State - Karnataka" },
+  
+  { "name": "Alappuzha", "industry": "State - Kerala" },
+  { "name": "Ernakulam", "industry": "State - Kerala" },
+  { "name": "Idukki", "industry": "State - Kerala" },
+  { "name": "Kannur", "industry": "State - Kerala" },
+  { "name": "Kasaragod", "industry": "State - Kerala" },
+  { "name": "Kollam", "industry": "State - Kerala" },
+  { "name": "Kottayam", "industry": "State - Kerala" },
+  { "name": "Kozhikode", "industry": "State - Kerala" },
+  { "name": "Malappuram", "industry": "State - Kerala" },
+  { "name": "Palakkad", "industry": "State - Kerala" },
+  { "name": "Pathanamthitta", "industry": "State - Kerala" },
+  { "name": "Thiruvananthapuram", "industry": "State - Kerala" },
+  { "name": "Thrissur", "industry": "State - Kerala" },
+  { "name": "Wayanad", "industry": "State - Kerala" },
+  
+  { "name": "Kargil", "industry": "UT - Ladakh" },
+  { "name": "Leh", "industry": "UT - Ladakh" },
+  
+  { "name": "Agar Malwa", "industry": "State - Madhya Pradesh" },
+  { "name": "Alirajpur", "industry": "State - Madhya Pradesh" },
+  { "name": "Anuppur", "industry": "State - Madhya Pradesh" },
+  { "name": "Ashoknagar", "industry": "State - Madhya Pradesh" },
+  { "name": "Balaghat", "industry": "State - Madhya Pradesh" },
+  { "name": "Barwani", "industry": "State - Madhya Pradesh" },
+  { "name": "Betul", "industry": "State - Madhya Pradesh" },
+  { "name": "Bhind", "industry": "State - Madhya Pradesh" },
+  { "name": "Bhopal", "industry": "State - Madhya Pradesh" },
+  { "name": "Burhanpur", "industry": "State - Madhya Pradesh" },
+  { "name": "Chhatarpur", "industry": "State - Madhya Pradesh" },
+  { "name": "Chhindwara", "industry": "State - Madhya Pradesh" },
+  { "name": "Damoh", "industry": "State - Madhya Pradesh" },
+  { "name": "Datia", "industry": "State - Madhya Pradesh" },
+  { "name": "Dewas", "industry": "State - Madhya Pradesh" },
+  { "name": "Dhar", "industry": "State - Madhya Pradesh" },
+  { "name": "Dindori", "industry": "State - Madhya Pradesh" },
+  { "name": "Guna", "industry": "State - Madhya Pradesh" },
+  { "name": "Gwalior", "industry": "State - Madhya Pradesh" },
+  { "name": "Harda", "industry": "State - Madhya Pradesh" },
+  { "name": "Hoshangabad", "industry": "State - Madhya Pradesh" },
+  { "name": "Indore", "industry": "State - Madhya Pradesh" },
+  { "name": "Jabalpur", "industry": "State - Madhya Pradesh" },
+  { "name": "Jhabua", "industry": "State - Madhya Pradesh" },
+  { "name": "Katni", "industry": "State - Madhya Pradesh" },
+  { "name": "Khandwa", "industry": "State - Madhya Pradesh" },
+  { "name": "Khargone", "industry": "State - Madhya Pradesh" },
+  { "name": "Mandla", "industry": "State - Madhya Pradesh" },
+  { "name": "Mandsaur", "industry": "State - Madhya Pradesh" },
+  { "name": "Morena", "industry": "State - Madhya Pradesh" },
+  { "name": "Narsinghpur", "industry": "State - Madhya Pradesh" },
+  { "name": "Neemuch", "industry": "State - Madhya Pradesh" },
+  { "name": "Niwari", "industry": "State - Madhya Pradesh" },
+  { "name": "Panna", "industry": "State - Madhya Pradesh" },
+  { "name": "Raisen", "industry": "State - Madhya Pradesh" },
+  { "name": "Rajgarh", "industry": "State - Madhya Pradesh" },
+  { "name": "Ratlam", "industry": "State - Madhya Pradesh" },
+  { "name": "Rewa", "industry": "State - Madhya Pradesh" },
+  { "name": "Sagar", "industry": "State - Madhya Pradesh" },
+  { "name": "Satna", "industry": "State - Madhya Pradesh" },
+  { "name": "Sehore", "industry": "State - Madhya Pradesh" },
+  { "name": "Seoni", "industry": "State - Madhya Pradesh" },
+  { "name": "Shahdol", "industry": "State - Madhya Pradesh" },
+  { "name": "Shajapur", "industry": "State - Madhya Pradesh" },
+  { "name": "Sheopur", "industry": "State - Madhya Pradesh" },
+  { "name": "Shivpuri", "industry": "State - Madhya Pradesh" },
+  { "name": "Sidhi", "industry": "State - Madhya Pradesh" },
+  { "name": "Singrauli", "industry": "State - Madhya Pradesh" },
+  { "name": "Tikamgarh", "industry": "State - Madhya Pradesh" },
+  { "name": "Ujjain", "industry": "State - Madhya Pradesh" },
+  { "name": "Umaria", "industry": "State - Madhya Pradesh" },
+  { "name": "Vidisha", "industry": "State - Madhya Pradesh" },
+  
+  { "name": "Ahmednagar", "industry": "State - Maharashtra" },
+  { "name": "Akola", "industry": "State - Maharashtra" },
+  { "name": "Amravati", "industry": "State - Maharashtra" },
+  { "name": "Aurangabad", "industry": "State - Maharashtra" },
+  { "name": "Beed", "industry": "State - Maharashtra" },
+  { "name": "Bhandara", "industry": "State - Maharashtra" },
+  { "name": "Buldhana", "industry": "State - Maharashtra" },
+  { "name": "Chandrapur", "industry": "State - Maharashtra" },
+  { "name": "Dhule", "industry": "State - Maharashtra" },
+  { "name": "Gadchiroli", "industry": "State - Maharashtra" },
+  { "name": "Gondia", "industry": "State - Maharashtra" },
+  { "name": "Hingoli", "industry": "State - Maharashtra" },
+  { "name": "Jalgaon", "industry": "State - Maharashtra" },
+  { "name": "Jalna", "industry": "State - Maharashtra" },
+  { "name": "Kolhapur", "industry": "State - Maharashtra" },
+  { "name": "Latur", "industry": "State - Maharashtra" },
+  { "name": "Mumbai City", "industry": "State - Maharashtra" },
+  { "name": "Mumbai Suburban", "industry": "State - Maharashtra" },
+  { "name": "Nagpur", "industry": "State - Maharashtra" },
+  { "name": "Nanded", "industry": "State - Maharashtra" },
+  { "name": "Nandurbar", "industry": "State - Maharashtra" },
+  { "name": "Nashik", "industry": "State - Maharashtra" },
+  { "name": "Osmanabad", "industry": "State - Maharashtra" },
+  { "name": "Palghar", "industry": "State - Maharashtra" },
+  { "name": "Parbhani", "industry": "State - Maharashtra" },
+  { "name": "Pune", "industry": "State - Maharashtra" },
+  { "name": "Raigad", "industry": "State - Maharashtra" },
+  { "name": "Ratnagiri", "industry": "State - Maharashtra" },
+  { "name": "Sangli", "industry": "State - Maharashtra" },
+  { "name": "Satara", "industry": "State - Maharashtra" },
+  { "name": "Sindhudurg", "industry": "State - Maharashtra" },
+  { "name": "Solapur", "industry": "State - Maharashtra" },
+  { "name": "Thane", "industry": "State - Maharashtra" },
+  { "name": "Wardha", "industry": "State - Maharashtra" },
+  { "name": "Washim", "industry": "State - Maharashtra" },
+  { "name": "Yavatmal", "industry": "State - Maharashtra" },
+  
+  { "name": "Bishnupur", "industry": "State - Manipur" },
+  { "name": "Chandel", "industry": "State - Manipur" },
+  { "name": "Churachandpur", "industry": "State - Manipur" },
+  { "name": "Imphal East", "industry": "State - Manipur" },
+  { "name": "Imphal West", "industry": "State - Manipur" },
+  { "name": "Jiribam", "industry": "State - Manipur" },
+  { "name": "Kakching", "industry": "State - Manipur" },
+  { "name": "Kamjong", "industry": "State - Manipur" },
+  { "name": "Kangpokpi", "industry": "State - Manipur" },
+  { "name": "Noney", "industry": "State - Manipur" },
+  { "name": "Pherzawl", "industry": "State - Manipur" },
+  { "name": "Senapati", "industry": "State - Manipur" },
+  { "name": "Tamenglong", "industry": "State - Manipur" },
+  { "name": "Tengnoupal", "industry": "State - Manipur" },
+  { "name": "Thoubal", "industry": "State - Manipur" },
+  { "name": "Ukhrul", "industry": "State - Manipur" },
+  
+  { "name": "East Khasi Hills", "industry": "State - Meghalaya" },
+  { "name": "East Jaintia Hills", "industry": "State - Meghalaya" },
+  { "name": "West Jaintia Hills", "industry": "State - Meghalaya" },
+  { "name": "West Khasi Hills", "industry": "State - Meghalaya" },
+  { "name": "South West Khasi Hills", "industry": "State - Meghalaya" },
+  { "name": "East Garo Hills", "industry": "State - Meghalaya" },
+  { "name": "West Garo Hills", "industry": "State - Meghalaya" },
+  { "name": "South Garo Hills", "industry": "State - Meghalaya" },
+  { "name": "South West Garo Hills", "industry": "State - Meghalaya" },
+  { "name": "North Garo Hills", "industry": "State - Meghalaya" },
+  { "name": "Ri Bhoi", "industry": "State - Meghalaya" },
+  
+  { "name": "Aizawl", "industry": "State - Mizoram" },
+  { "name": "Champhai", "industry": "State - Mizoram" },
+  { "name": "Kolasib", "industry": "State - Mizoram" },
+  { "name": "Lawngtlai", "industry": "State - Mizoram" },
+  { "name": "Lunglei", "industry": "State - Mizoram" },
+  { "name": "Mamit", "industry": "State - Mizoram" },
+  { "name": "Saiha", "industry": "State - Mizoram" },
+  { "name": "Serchhip", "industry": "State - Mizoram" },
+  { "name": "Hnahthial", "industry": "State - Mizoram" },
+  { "name": "Khawzawl", "industry": "State - Mizoram" },
+  { "name": "Saitual", "industry": "State - Mizoram" },
+  
+  { "name": "Dimapur", "industry": "State - Nagaland" },
+  { "name": "Kiphire", "industry": "State - Nagaland" },
+  { "name": "Kohima", "industry": "State - Nagaland" },
+  { "name": "Longleng", "industry": "State - Nagaland" },
+  { "name": "Mokokchung", "industry": "State - Nagaland" },
+  { "name": "Mon", "industry": "State - Nagaland" },
+  { "name": "Peren", "industry": "State - Nagaland" },
+  { "name": "Phek", "industry": "State - Nagaland" },
+  { "name": "Tuensang", "industry": "State - Nagaland" },
+  { "name": "Wokha", "industry": "State - Nagaland" },
+  { "name": "Zunheboto", "industry": "State - Nagaland" },
+  { "name": "Noklak", "industry": "State - Nagaland" },
+  
+  { "name": "Angul", "industry": "State - Odisha" },
+  { "name": "Balangir", "industry": "State - Odisha" },
+  { "name": "Balasore", "industry": "State - Odisha" },
+  { "name": "Bargarh", "industry": "State - Odisha" },
+  { "name": "Bhadrak", "industry": "State - Odisha" },
+  { "name": "Boudh", "industry": "State - Odisha" },
+  { "name": "Cuttack", "industry": "State - Odisha" },
+  { "name": "Deogarh", "industry": "State - Odisha" },
+  { "name": "Dhenkanal", "industry": "State - Odisha" },
+  { "name": "Gajapati", "industry": "State - Odisha" },
+  { "name": "Ganjam", "industry": "State - Odisha" },
+  { "name": "Jagatsinghpur", "industry": "State - Odisha" },
+  { "name": "Jajpur", "industry": "State - Odisha" },
+  { "name": "Jharsuguda", "industry": "State - Odisha" },
+  { "name": "Kalahandi", "industry": "State - Odisha" },
+  { "name": "Kandhamal", "industry": "State - Odisha" },
+  { "name": "Kendrapara", "industry": "State - Odisha" },
+  { "name": "Kendujhar", "industry": "State - Odisha" },
+  { "name": "Khordha", "industry": "State - Odisha" },
+  { "name": "Koraput", "industry": "State - Odisha" },
+  { "name": "Malkangiri", "industry": "State - Odisha" },
+  { "name": "Mayurbhanj", "industry": "State - Odisha" },
+  { "name": "Nabarangpur", "industry": "State - Odisha" },
+  { "name": "Nayagarh", "industry": "State - Odisha" },
+  { "name": "Nuapada", "industry": "State - Odisha" },
+  { "name": "Puri", "industry": "State - Odisha" },
+  { "name": "Rayagada", "industry": "State - Odisha" },
+  { "name": "Sambalpur", "industry": "State - Odisha" },
+  { "name": "Subarnapur", "industry": "State - Odisha" },
+  { "name": "Sundargarh", "industry": "State - Odisha" },
+  
+  { "name": "Amritsar", "industry": "State - Punjab" },
+  { "name": "Barnala", "industry": "State - Punjab" },
+  { "name": "Bathinda", "industry": "State - Punjab" },
+  { "name": "Faridkot", "industry": "State - Punjab" },
+  { "name": "Fatehgarh Sahib", "industry": "State - Punjab" },
+  { "name": "Fazilka", "industry": "State - Punjab" },
+  { "name": "Ferozepur", "industry": "State - Punjab" },
+  { "name": "Gurdaspur", "industry": "State - Punjab" },
+  { "name": "Hoshiarpur", "industry": "State - Punjab" },
+  { "name": "Jalandhar", "industry": "State - Punjab" },
+  { "name": "Kapurthala", "industry": "State - Punjab" },
+  { "name": "Ludhiana", "industry": "State - Punjab" },
+  { "name": "Mansa", "industry": "State - Punjab" },
+  { "name": "Moga", "industry": "State - Punjab" },
+  { "name": "Muktsar", "industry": "State - Punjab" },
+  { "name": "Pathankot", "industry": "State - Punjab" },
+  { "name": "Patiala", "industry": "State - Punjab" },
+  { "name": "Rupnagar", "industry": "State - Punjab" },
+  { "name": "Sahibzada Ajit Singh Nagar", "industry": "State - Punjab" },
+  { "name": "Sangrur", "industry": "State - Punjab" },
+  { "name": "Shahid Bhagat Singh Nagar", "industry": "State - Punjab" },
+  { "name": "Tarn Taran", "industry": "State - Punjab" },
+  
+  { "name": "Ajmer", "industry": "State - Rajasthan" },
+  { "name": "Alwar", "industry": "State - Rajasthan" },
+  { "name": "Banswara", "industry": "State - Rajasthan" },
+  { "name": "Baran", "industry": "State - Rajasthan" },
+  { "name": "Barmer", "industry": "State - Rajasthan" },
+  { "name": "Bharatpur", "industry": "State - Rajasthan" },
+  { "name": "Bhilwara", "industry": "State - Rajasthan" },
+  { "name": "Bikaner", "industry": "State - Rajasthan" },
+  { "name": "Bundi", "industry": "State - Rajasthan" },
+  { "name": "Chittorgarh", "industry": "State - Rajasthan" },
+  { "name": "Churu", "industry": "State - Rajasthan" },
+  { "name": "Dausa", "industry": "State - Rajasthan" },
+  { "name": "Dholpur", "industry": "State - Rajasthan" },
+  { "name": "Dungarpur", "industry": "State - Rajasthan" },
+  { "name": "Hanumangarh", "industry": "State - Rajasthan" },
+  { "name": "Jaipur", "industry": "State - Rajasthan" },
+  { "name": "Jaisalmer", "industry": "State - Rajasthan" },
+  { "name": "Jalore", "industry": "State - Rajasthan" },
+  { "name": "Jhalawar", "industry": "State - Rajasthan" },
+  { "name": "Jhunjhunu", "industry": "State - Rajasthan" },
+  { "name": "Jodhpur", "industry": "State - Rajasthan" },
+  { "name": "Karauli", "industry": "State - Rajasthan" },
+  { "name": "Kota", "industry": "State - Rajasthan" },
+  { "name": "Nagaur", "industry": "State - Rajasthan" },
+  { "name": "Pali", "industry": "State - Rajasthan" },
+  { "name": "Pratapgarh", "industry": "State - Rajasthan" },
+  { "name": "Rajsamand", "industry": "State - Rajasthan" },
+  { "name": "Sawai Madhopur", "industry": "State - Rajasthan" },
+  { "name": "Sikar", "industry": "State - Rajasthan" },
+  { "name": "Sirohi", "industry": "State - Rajasthan" },
+  { "name": "Sri Ganganagar", "industry": "State - Rajasthan" },
+  { "name": "Tonk", "industry": "State - Rajasthan" },
+  { "name": "Udaipur", "industry": "State - Rajasthan" },
+  
+  { "name": "East Sikkim", "industry": "State - Sikkim" },
+  { "name": "North Sikkim", "industry": "State - Sikkim" },
+  { "name": "South Sikkim", "industry": "State - Sikkim" },
+  { "name": "West Sikkim", "industry": "State - Sikkim" },
+  
+  { "name": "Ariyalur", "industry": "State - Tamil Nadu" },
+  { "name": "Chengalpattu", "industry": "State - Tamil Nadu" },
+  { "name": "Chennai", "industry": "State - Tamil Nadu" },
+  { "name": "Coimbatore", "industry": "State - Tamil Nadu" },
+  { "name": "Cuddalore", "industry": "State - Tamil Nadu" },
+  { "name": "Dharmapuri", "industry": "State - Tamil Nadu" },
+  { "name": "Dindigul", "industry": "State - Tamil Nadu" },
+  { "name": "Erode", "industry": "State - Tamil Nadu" },
+  { "name": "Kallakurichi", "industry": "State - Tamil Nadu" },
+  { "name": "Kanchipuram", "industry": "State - Tamil Nadu" },
+  { "name": "Kanyakumari", "industry": "State - Tamil Nadu" },
+  { "name": "Karur", "industry": "State - Tamil Nadu" },
+  { "name": "Krishnagiri", "industry": "State - Tamil Nadu" },
+  { "name": "Madurai", "industry": "State - Tamil Nadu" },
+  { "name": "Mayiladuthurai", "industry": "State - Tamil Nadu" },
+  { "name": "Nagapattinam", "industry": "State - Tamil Nadu" },
+  { "name": "Namakkal", "industry": "State - Tamil Nadu" },
+  { "name": "Nilgiris", "industry": "State - Tamil Nadu" },
+  { "name": "Perambalur", "industry": "State - Tamil Nadu" },
+  { "name": "Pudukkottai", "industry": "State - Tamil Nadu" },
+  { "name": "Ramanathapuram", "industry": "State - Tamil Nadu" },
+  { "name": "Ranipet", "industry": "State - Tamil Nadu" },
+  { "name": "Salem", "industry": "State - Tamil Nadu" },
+  { "name": "Sivaganga", "industry": "State - Tamil Nadu" },
+  { "name": "Tenkasi", "industry": "State - Tamil Nadu" },
+  { "name": "Thanjavur", "industry": "State - Tamil Nadu" },
+  { "name": "Theni", "industry": "State - Tamil Nadu" },
+  { "name": "Thoothukudi", "industry": "State - Tamil Nadu" },
+  { "name": "Tiruchirappalli", "industry": "State - Tamil Nadu" },
+  { "name": "Tirunelveli", "industry": "State - Tamil Nadu" },
+  { "name": "Tirupathur", "industry": "State - Tamil Nadu" },
+  { "name": "Tiruppur", "industry": "State - Tamil Nadu" },
+  { "name": "Tiruvallur", "industry": "State - Tamil Nadu" },
+  { "name": "Tiruvannamalai", "industry": "State - Tamil Nadu" },
+  { "name": "Tiruvarur", "industry": "State - Tamil Nadu" },
+  { "name": "Vellore", "industry": "State - Tamil Nadu" },
+  { "name": "Viluppuram", "industry": "State - Tamil Nadu" },
+  { "name": "Virudhunagar", "industry": "State - Tamil Nadu" },
+  { "name": "Adilabad", "industry": "State - Telangana" },
+  { "name": "Bhadradri Kothagudem", "industry": "State - Telangana" },
+  { "name": "Hyderabad", "industry": "State - Telangana" },
+  { "name": "Jagtial", "industry": "State - Telangana" },
+  { "name": "Jangaon", "industry": "State - Telangana" },
+  { "name": "Jayashankar Bhupalpally", "industry": "State - Telangana" },
+  { "name": "Jogulamba Gadwal", "industry": "State - Telangana" },
+  { "name": "Kamareddy", "industry": "State - Telangana" },
+  { "name": "Karimnagar", "industry": "State - Telangana" },
+  { "name": "Khammam", "industry": "State - Telangana" },
+  { "name": "Komaram Bheem Asifabad", "industry": "State - Telangana" },
+  { "name": "Mahabubabad", "industry": "State - Telangana" },
+  { "name": "Mahabubnagar", "industry": "State - Telangana" },
+  { "name": "Mancherial", "industry": "State - Telangana" },
+  { "name": "Medak", "industry": "State - Telangana" },
+  { "name": "Medchal-Malkajgiri", "industry": "State - Telangana" },
+  { "name": "Mulugu", "industry": "State - Telangana" },
+  { "name": "Nagarkurnool", "industry": "State - Telangana" },
+  { "name": "Nalgonda", "industry": "State - Telangana" },
+  { "name": "Narayanpet", "industry": "State - Telangana" },
+  { "name": "Nirmal", "industry": "State - Telangana" },
+  { "name": "Nizamabad", "industry": "State - Telangana" },
+  { "name": "Peddapalli", "industry": "State - Telangana" },
+  { "name": "Rajanna Sircilla", "industry": "State - Telangana" },
+  { "name": "Rangareddy", "industry": "State - Telangana" },
+  { "name": "Sangareddy", "industry": "State - Telangana" },
+  { "name": "Siddipet", "industry": "State - Telangana" },
+  { "name": "Suryapet", "industry": "State - Telangana" },
+  { "name": "Vikarabad", "industry": "State - Telangana" },
+  { "name": "Wanaparthy", "industry": "State - Telangana" },
+  { "name": "Warangal", "industry": "State - Telangana" },
+  { "name": "Yadadri Bhuvanagiri", "industry": "State - Telangana" },
+  
+  { "name": "Dhalai", "industry": "State - Tripura" },
+  { "name": "Gomati", "industry": "State - Tripura" },
+  { "name": "Khowai", "industry": "State - Tripura" },
+  { "name": "North Tripura", "industry": "State - Tripura" },
+  { "name": "Sepahijala", "industry": "State - Tripura" },
+  { "name": "South Tripura", "industry": "State - Tripura" },
+  { "name": "Unakoti", "industry": "State - Tripura" },
+  { "name": "West Tripura", "industry": "State - Tripura" },
+  { "name": "Agra", "industry": "State - Uttar Pradesh" },
+  { "name": "Aligarh", "industry": "State - Uttar Pradesh" },
+  { "name": "Ambedkar Nagar", "industry": "State - Uttar Pradesh" },
+  { "name": "Amethi", "industry": "State - Uttar Pradesh" },
+  { "name": "Amroha", "industry": "State - Uttar Pradesh" },
+  { "name": "Auraiya", "industry": "State - Uttar Pradesh" },
+  { "name": "Ayodhya", "industry": "State - Uttar Pradesh" },
+  { "name": "Azamgarh", "industry": "State - Uttar Pradesh" },
+  { "name": "Baghpat", "industry": "State - Uttar Pradesh" },
+  { "name": "Bahraich", "industry": "State - Uttar Pradesh" },
+  { "name": "Ballia", "industry": "State - Uttar Pradesh" },
+  { "name": "Balrampur", "industry": "State - Uttar Pradesh" },
+  { "name": "Banda", "industry": "State - Uttar Pradesh" },
+  { "name": "Barabanki", "industry": "State - Uttar Pradesh" },
+  { "name": "Bareilly", "industry": "State - Uttar Pradesh" },
+  { "name": "Basti", "industry": "State - Uttar Pradesh" },
+  { "name": "Bhadohi", "industry": "State - Uttar Pradesh" },
+  { "name": "Bijnor", "industry": "State - Uttar Pradesh" },
+  { "name": "Budaun", "industry": "State - Uttar Pradesh" },
+  { "name": "Bulandshahr", "industry": "State - Uttar Pradesh" },
+  { "name": "Chandauli", "industry": "State - Uttar Pradesh" },
+  { "name": "Chitrakoot", "industry": "State - Uttar Pradesh" },
+  { "name": "Deoria", "industry": "State - Uttar Pradesh" },
+  { "name": "Etah", "industry": "State - Uttar Pradesh" },
+  { "name": "Etawah", "industry": "State - Uttar Pradesh" },
+  { "name": "Farrukhabad", "industry": "State - Uttar Pradesh" },
+  { "name": "Fatehpur", "industry": "State - Uttar Pradesh" },
+  { "name": "Firozabad", "industry": "State - Uttar Pradesh" },
+  { "name": "Gautam Buddha Nagar", "industry": "State - Uttar Pradesh" },
+  { "name": "Ghaziabad", "industry": "State - Uttar Pradesh" },
+  { "name": "Ghazipur", "industry": "State - Uttar Pradesh" },
+  { "name": "Gonda", "industry": "State - Uttar Pradesh" },
+  { "name": "Gorakhpur", "industry": "State - Uttar Pradesh" },
+  { "name": "Hamirpur", "industry": "State - Uttar Pradesh" },
+  { "name": "Hapur", "industry": "State - Uttar Pradesh" },
+  { "name": "Hardoi", "industry": "State - Uttar Pradesh" },
+  { "name": "Hathras", "industry": "State - Uttar Pradesh" },
+  { "name": "Jalaun", "industry": "State - Uttar Pradesh" },
+  { "name": "Jaunpur", "industry": "State - Uttar Pradesh" },
+  { "name": "Jhansi", "industry": "State - Uttar Pradesh" },
+  { "name": "Kannauj", "industry": "State - Uttar Pradesh" },
+  { "name": "Kanpur Dehat", "industry": "State - Uttar Pradesh" },
+  { "name": "Kanpur Nagar", "industry": "State - Uttar Pradesh" },
+  { "name": "Kasganj", "industry": "State - Uttar Pradesh" },
+  { "name": "Kaushambi", "industry": "State - Uttar Pradesh" },
+  { "name": "Kheri", "industry": "State - Uttar Pradesh" },
+  { "name": "Kushinagar", "industry": "State - Uttar Pradesh" },
+  { "name": "Lalitpur", "industry": "State - Uttar Pradesh" },
+  { "name": "Lucknow", "industry": "State - Uttar Pradesh" },
+  { "name": "Maharajganj", "industry": "State - Uttar Pradesh" },
+  { "name": "Mahoba", "industry": "State - Uttar Pradesh" },
+  { "name": "Mainpuri", "industry": "State - Uttar Pradesh" },
+  { "name": "Mathura", "industry": "State - Uttar Pradesh" },
+  { "name": "Mau", "industry": "State - Uttar Pradesh" },
+  { "name": "Meerut", "industry": "State - Uttar Pradesh" },
+  { "name": "Mirzapur", "industry": "State - Uttar Pradesh" },
+  { "name": "Moradabad", "industry": "State - Uttar Pradesh" },
+  { "name": "Muzaffarnagar", "industry": "State - Uttar Pradesh" },
+  { "name": "Pilibhit", "industry": "State - Uttar Pradesh" },
+  { "name": "Pratapgarh", "industry": "State - Uttar Pradesh" },
+  { "name": "Prayagraj", "industry": "State - Uttar Pradesh" },
+  { "name": "Raebareli", "industry": "State - Uttar Pradesh" },
+  { "name": "Rampur", "industry": "State - Uttar Pradesh" },
+  { "name": "Saharanpur", "industry": "State - Uttar Pradesh" },
+  { "name": "Sambhal", "industry": "State - Uttar Pradesh" },
+  { "name": "Sant Kabir Nagar", "industry": "State - Uttar Pradesh" },
+  { "name": "Shahjahanpur", "industry": "State - Uttar Pradesh" },
+  { "name": "Shamli", "industry": "State - Uttar Pradesh" },
+  { "name": "Shravasti", "industry": "State - Uttar Pradesh" },
+  { "name": "Siddharthnagar", "industry": "State - Uttar Pradesh" },
+  { "name": "Sitapur", "industry": "State - Uttar Pradesh" },
+  { "name": "Sonbhadra", "industry": "State - Uttar Pradesh" },
+  { "name": "Sultanpur", "industry": "State - Uttar Pradesh" },
+  { "name": "Unnao", "industry": "State - Uttar Pradesh" },
+  { "name": "Varanasi", "industry": "State - Uttar Pradesh" },
+  
+  { "name": "Almora", "industry": "State - Uttarakhand" },
+  { "name": "Bageshwar", "industry": "State - Uttarakhand" },
+  { "name": "Chamoli", "industry": "State - Uttarakhand" },
+  { "name": "Champawat", "industry": "State - Uttarakhand" },
+  { "name": "Dehradun", "industry": "State - Uttarakhand" },
+  { "name": "Haridwar", "industry": "State - Uttarakhand" },
+  { "name": "Nainital", "industry": "State - Uttarakhand" },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "The Godfather",
+    "industry": "Movie - Crime Drama"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Persian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Boeing 777",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Bohemian Rhapsody",
+    "industry": "Song - Queen"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "Gemini",
+    "industry": "LLM - Google DeepMind"
+  },
+  {
+    "name": "Eiffel Tower",
+    "industry": "Tourist Place - France"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Grok",
+    "industry": "LLM - xAI"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Curiosity Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Stairway to Heaven",
+    "industry": "Song - Led Zeppelin"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Beagle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Grand Canyon",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "LLaMA 2",
+    "industry": "LLM - Meta"
+  },
+  {
+    "name": "Claude 3",
+    "industry": "LLM - Anthropic"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Airbus A380",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Lockheed SR-71",
+    "industry": "Airplane - Lockheed"
+  },
+  {
+    "name": "Nao",
+    "industry": "Robot - SoftBank Robotics"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "Nao",
+    "industry": "Robot - SoftBank Robotics"
+  },
+  {
+    "name": "Boxer",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Beagle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Persian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "ASIMO",
+    "industry": "Robot - Honda"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "Robonaut",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Ferrari LaFerrari",
+    "industry": "Car - Ferrari"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Bohemian Rhapsody",
+    "industry": "Song - Queen"
+  },
+  {
+    "name": "Mixtral",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "MiG-29",
+    "industry": "Airplane - Mikoyan"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Mixtral",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Titanic",
+    "industry": "Movie - Romance"
+  },
+  {
+    "name": "Grand Canyon",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "Concorde",
+    "industry": "Airplane - British-French"
+  },
+  {
+    "name": "Rolling in the Deep",
+    "industry": "Song - Adele"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Lockheed SR-71",
+    "industry": "Airplane - Lockheed"
+  },
+  {
+    "name": "Nao",
+    "industry": "Robot - SoftBank Robotics"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Ferrari LaFerrari",
+    "industry": "Car - Ferrari"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Scottish Fold",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "British Shorthair",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Robonaut",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Great Wall of China",
+    "industry": "Tourist Place - China"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Stairway to Heaven",
+    "industry": "Song - Led Zeppelin"
+  },
+  {
+    "name": "Mount Everest",
+    "industry": "Tourist Place - Nepal"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Robonaut",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Airbus A380",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Nao",
+    "industry": "Robot - SoftBank Robotics"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "industry": "Airplane - General Dynamics"
+  },
+  {
+    "name": "Command R+",
+    "industry": "LLM - Cohere"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Boeing 777",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "MiG-29",
+    "industry": "Airplane - Mikoyan"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Stairway to Heaven",
+    "industry": "Song - Led Zeppelin"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Ford Mustang",
+    "industry": "Car - Ford"
+  },
+  {
+    "name": "Rottweiler",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Taj Mahal",
+    "industry": "Tourist Place - India"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Stairway to Heaven",
+    "industry": "Song - Led Zeppelin"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Siamese",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Lamborghini Aventador",
+    "industry": "Car - Lamborghini"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "Abyssinian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "Ferrari LaFerrari",
+    "industry": "Car - Ferrari"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Rolling in the Deep",
+    "industry": "Song - Adele"
+  },
+  {
+    "name": "Ferrari LaFerrari",
+    "industry": "Car - Ferrari"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Concorde",
+    "industry": "Airplane - British-French"
+  },
+  {
+    "name": "Siamese",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "industry": "Airplane - General Dynamics"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "industry": "Airplane - General Dynamics"
+  },
+  {
+    "name": "BMW M3",
+    "industry": "Car - BMW"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "British Shorthair",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "ASIMO",
+    "industry": "Robot - Honda"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Command R+",
+    "industry": "LLM - Cohere"
+  },
+  {
+    "name": "Boeing 777",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Scottish Fold",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Lamborghini Aventador",
+    "industry": "Car - Lamborghini"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Ferrari LaFerrari",
+    "industry": "Car - Ferrari"
+  },
+  {
+    "name": "Grok",
+    "industry": "LLM - xAI"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Scottish Fold",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Grok",
+    "industry": "LLM - xAI"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Claude 3",
+    "industry": "LLM - Anthropic"
+  },
+  {
+    "name": "Boeing 747",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Command R+",
+    "industry": "LLM - Cohere"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Claude 3",
+    "industry": "LLM - Anthropic"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "Boeing 747",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Airbus A380",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Stairway to Heaven",
+    "industry": "Song - Led Zeppelin"
+  },
+  {
+    "name": "Boxer",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Boston Dynamics Spot",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "industry": "Airplane - General Dynamics"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Rolling in the Deep",
+    "industry": "Song - Adele"
+  },
+  {
+    "name": "Curiosity Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Persian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Orca 2",
+    "industry": "LLM - Microsoft"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Stairway to Heaven",
+    "industry": "Song - Led Zeppelin"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "ASIMO",
+    "industry": "Robot - Honda"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Curiosity Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Rolling in the Deep",
+    "industry": "Song - Adele"
+  },
+  {
+    "name": "Rottweiler",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Lamborghini Aventador",
+    "industry": "Car - Lamborghini"
+  },
+  {
+    "name": "Ferrari LaFerrari",
+    "industry": "Car - Ferrari"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Mount Everest",
+    "industry": "Tourist Place - Nepal"
+  },
+  {
+    "name": "Ford Mustang",
+    "industry": "Car - Ford"
+  },
+  {
+    "name": "LLaMA 2",
+    "industry": "LLM - Meta"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "Command R+",
+    "industry": "LLM - Cohere"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Porsche 911",
+    "industry": "Car - Porsche"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Great Wall of China",
+    "industry": "Tourist Place - China"
+  },
+  {
+    "name": "Persian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Porsche 911",
+    "industry": "Car - Porsche"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Lockheed SR-71",
+    "industry": "Airplane - Lockheed"
+  },
+  {
+    "name": "Lamborghini Aventador",
+    "industry": "Car - Lamborghini"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Grand Canyon",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Claude 3",
+    "industry": "LLM - Anthropic"
+  },
+  {
+    "name": "Boeing 777",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Abyssinian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Dachshund",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "The Godfather",
+    "industry": "Movie - Crime Drama"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Orca 2",
+    "industry": "LLM - Microsoft"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Grand Canyon",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "Taj Mahal",
+    "industry": "Tourist Place - India"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Bohemian Rhapsody",
+    "industry": "Song - Queen"
+  },
+  {
+    "name": "Concorde",
+    "industry": "Airplane - British-French"
+  },
+  {
+    "name": "Mount Everest",
+    "industry": "Tourist Place - Nepal"
+  },
+  {
+    "name": "Ford Mustang",
+    "industry": "Car - Ford"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "ASIMO",
+    "industry": "Robot - Honda"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Gemini",
+    "industry": "LLM - Google DeepMind"
+  },
+  {
+    "name": "Bulldog",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Rottweiler",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Scottish Fold",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Mixtral",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Gemini",
+    "industry": "LLM - Google DeepMind"
+  },
+  {
+    "name": "Ford Mustang",
+    "industry": "Car - Ford"
+  },
+  {
+    "name": "Dachshund",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Lockheed SR-71",
+    "industry": "Airplane - Lockheed"
+  },
+  {
+    "name": "Gemini",
+    "industry": "LLM - Google DeepMind"
+  },
+  {
+    "name": "Boston Dynamics Spot",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "F-22 Raptor",
+    "industry": "Airplane - Lockheed Martin"
+  },
+  {
+    "name": "The Dark Knight",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "MiG-29",
+    "industry": "Airplane - Mikoyan"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Eiffel Tower",
+    "industry": "Tourist Place - France"
+  },
+  {
+    "name": "BMW M3",
+    "industry": "Car - BMW"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Scottish Fold",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "LLaMA 2",
+    "industry": "LLM - Meta"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Siamese",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Great Wall of China",
+    "industry": "Tourist Place - China"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Nao",
+    "industry": "Robot - SoftBank Robotics"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Concorde",
+    "industry": "Airplane - British-French"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Mount Everest",
+    "industry": "Tourist Place - Nepal"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Claude 3",
+    "industry": "LLM - Anthropic"
+  },
+  {
+    "name": "The Dark Knight",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Orca 2",
+    "industry": "LLM - Microsoft"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "ASIMO",
+    "industry": "Robot - Honda"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Boeing 747",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Gemini",
+    "industry": "LLM - Google DeepMind"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Ford Mustang",
+    "industry": "Car - Ford"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "LLaMA 2",
+    "industry": "LLM - Meta"
+  },
+  {
+    "name": "Scottish Fold",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Stairway to Heaven",
+    "industry": "Song - Led Zeppelin"
+  },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Abyssinian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Boxer",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Rottweiler",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Machu Picchu",
+    "industry": "Tourist Place - Peru"
+  },
+  {
+    "name": "Porsche 911",
+    "industry": "Car - Porsche"
+  },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Lockheed SR-71",
+    "industry": "Airplane - Lockheed"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Beagle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Titanic",
+    "industry": "Movie - Romance"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "industry": "Airplane - General Dynamics"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Scottish Fold",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Bulldog",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "industry": "Airplane - General Dynamics"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Claude 3",
+    "industry": "LLM - Anthropic"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "MiG-29",
+    "industry": "Airplane - Mikoyan"
+  },
+  {
+    "name": "Mixtral",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Dachshund",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Boeing 747",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Orca 2",
+    "industry": "LLM - Microsoft"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Eiffel Tower",
+    "industry": "Tourist Place - France"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Eiffel Tower",
+    "industry": "Tourist Place - France"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Beagle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "ASIMO",
+    "industry": "Robot - Honda"
+  },
+  {
+    "name": "Grand Canyon",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Beagle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "Orca 2",
+    "industry": "LLM - Microsoft"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "Command R+",
+    "industry": "LLM - Cohere"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Mixtral",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Abyssinian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Claude 3",
+    "industry": "LLM - Anthropic"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Lockheed SR-71",
+    "industry": "Airplane - Lockheed"
+  },
+  {
+    "name": "Pulp Fiction",
+    "industry": "Movie - Crime"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Grand Canyon",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Orca 2",
+    "industry": "LLM - Microsoft"
+  },
+  {
+    "name": "Beagle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Bulldog",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Airbus A380",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Titanic",
+    "industry": "Movie - Romance"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Concorde",
+    "industry": "Airplane - British-French"
+  },
+  {
+    "name": "Siamese",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Claude 3",
+    "industry": "LLM - Anthropic"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Lamborghini Aventador",
+    "industry": "Car - Lamborghini"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Concorde",
+    "industry": "Airplane - British-French"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "Mixtral",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Robonaut",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Great Wall of China",
+    "industry": "Tourist Place - China"
+  },
+  {
+    "name": "Pulp Fiction",
+    "industry": "Movie - Crime"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "The Dark Knight",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Concorde",
+    "industry": "Airplane - British-French"
+  },
+  {
+    "name": "F-22 Raptor",
+    "industry": "Airplane - Lockheed Martin"
+  },
+  {
+    "name": "Boston Dynamics Spot",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "Eiffel Tower",
+    "industry": "Tourist Place - France"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Dachshund",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Curiosity Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Ferrari LaFerrari",
+    "industry": "Car - Ferrari"
+  },
+  {
+    "name": "British Shorthair",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "LLaMA 2",
+    "industry": "LLM - Meta"
+  },
+  {
+    "name": "Curiosity Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Dachshund",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Nao",
+    "industry": "Robot - SoftBank Robotics"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "The Godfather",
+    "industry": "Movie - Crime Drama"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Grok",
+    "industry": "LLM - xAI"
+  },
+  {
+    "name": "F-22 Raptor",
+    "industry": "Airplane - Lockheed Martin"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Siamese",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Stairway to Heaven",
+    "industry": "Song - Led Zeppelin"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Pulp Fiction",
+    "industry": "Movie - Crime"
+  },
+  {
+    "name": "Robonaut",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "Mount Everest",
+    "industry": "Tourist Place - Nepal"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "Boxer",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Mount Everest",
+    "industry": "Tourist Place - Nepal"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "Siamese",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Mixtral",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "Boeing 777",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Porsche 911",
+    "industry": "Car - Porsche"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Titanic",
+    "industry": "Movie - Romance"
+  },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Orca 2",
+    "industry": "LLM - Microsoft"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Mixtral",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Rottweiler",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Mixtral",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "The Dark Knight",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Bulldog",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Command R+",
+    "industry": "LLM - Cohere"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "Rolling in the Deep",
+    "industry": "Song - Adele"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "The Dark Knight",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "The Godfather",
+    "industry": "Movie - Crime Drama"
+  },
+  {
+    "name": "Boston Dynamics Spot",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Grand Canyon",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "BMW M3",
+    "industry": "Car - BMW"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Airbus A380",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "Claude 3",
+    "industry": "LLM - Anthropic"
+  },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Rottweiler",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Robonaut",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Taj Mahal",
+    "industry": "Tourist Place - India"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Rottweiler",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Titanic",
+    "industry": "Movie - Romance"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Taj Mahal",
+    "industry": "Tourist Place - India"
+  },
+  {
+    "name": "The Dark Knight",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "Airbus A380",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Curiosity Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Abyssinian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Ferrari LaFerrari",
+    "industry": "Car - Ferrari"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Great Wall of China",
+    "industry": "Tourist Place - China"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "The Dark Knight",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "BMW M3",
+    "industry": "Car - BMW"
+  },
+  {
+    "name": "Grok",
+    "industry": "LLM - xAI"
+  },
+  {
+    "name": "The Dark Knight",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Dachshund",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Great Wall of China",
+    "industry": "Tourist Place - China"
+  },
+  {
+    "name": "BMW M3",
+    "industry": "Car - BMW"
+  },
+  {
+    "name": "Rottweiler",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Eiffel Tower",
+    "industry": "Tourist Place - France"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Machu Picchu",
+    "industry": "Tourist Place - Peru"
+  },
+  {
+    "name": "Persian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "industry": "Airplane - General Dynamics"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "The Godfather",
+    "industry": "Movie - Crime Drama"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "ASIMO",
+    "industry": "Robot - Honda"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Grok",
+    "industry": "LLM - xAI"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Robonaut",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "Bohemian Rhapsody",
+    "industry": "Song - Queen"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Great Wall of China",
+    "industry": "Tourist Place - China"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Boeing 777",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Lockheed SR-71",
+    "industry": "Airplane - Lockheed"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "British Shorthair",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Command R+",
+    "industry": "LLM - Cohere"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Mount Everest",
+    "industry": "Tourist Place - Nepal"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "LLaMA 2",
+    "industry": "LLM - Meta"
+  },
+  {
+    "name": "Boston Dynamics Spot",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Boxer",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Titanic",
+    "industry": "Movie - Romance"
+  },
+  {
+    "name": "The Dark Knight",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Grand Canyon",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Boxer",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Bulldog",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Lamborghini Aventador",
+    "industry": "Car - Lamborghini"
+  },
+  {
+    "name": "Scottish Fold",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "ASIMO",
+    "industry": "Robot - Honda"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "Machu Picchu",
+    "industry": "Tourist Place - Peru"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Stairway to Heaven",
+    "industry": "Song - Led Zeppelin"
+  },
+  {
+    "name": "BMW M3",
+    "industry": "Car - BMW"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "Scottish Fold",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Abyssinian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Bulldog",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Mixtral",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Mount Everest",
+    "industry": "Tourist Place - Nepal"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Bulldog",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "Ferrari LaFerrari",
+    "industry": "Car - Ferrari"
+  },
+  {
+    "name": "Claude 3",
+    "industry": "LLM - Anthropic"
+  },
+  {
+    "name": "The Dark Knight",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "Porsche 911",
+    "industry": "Car - Porsche"
+  },
+  {
+    "name": "BMW M3",
+    "industry": "Car - BMW"
+  },
+  {
+    "name": "Dachshund",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Bulldog",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Taj Mahal",
+    "industry": "Tourist Place - India"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Pulp Fiction",
+    "industry": "Movie - Crime"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Gemini",
+    "industry": "LLM - Google DeepMind"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "industry": "Airplane - General Dynamics"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "British Shorthair",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Abyssinian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Dachshund",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Pulp Fiction",
+    "industry": "Movie - Crime"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Curiosity Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Grok",
+    "industry": "LLM - xAI"
+  },
+  {
+    "name": "Concorde",
+    "industry": "Airplane - British-French"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Gemini",
+    "industry": "LLM - Google DeepMind"
+  },
+  {
+    "name": "Ford Mustang",
+    "industry": "Car - Ford"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "The Godfather",
+    "industry": "Movie - Crime Drama"
+  },
+  {
+    "name": "Concorde",
+    "industry": "Airplane - British-French"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "industry": "Song - Nirvana"
+  },
+  {
+    "name": "Boeing 777",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Machu Picchu",
+    "industry": "Tourist Place - Peru"
+  },
+  {
+    "name": "Boeing 777",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Scottish Fold",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Taj Mahal",
+    "industry": "Tourist Place - India"
+  },
+  {
+    "name": "MiG-29",
+    "industry": "Airplane - Mikoyan"
+  },
+  {
+    "name": "Command R+",
+    "industry": "LLM - Cohere"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "MiG-29",
+    "industry": "Airplane - Mikoyan"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Pulp Fiction",
+    "industry": "Movie - Crime"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Boxer",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Grand Canyon",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Eiffel Tower",
+    "industry": "Tourist Place - France"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Curiosity Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "industry": "Airplane - General Dynamics"
+  },
+  {
+    "name": "Command R+",
+    "industry": "LLM - Cohere"
+  },
+  {
+    "name": "Curiosity Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "ASIMO",
+    "industry": "Robot - Honda"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Abyssinian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Beagle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Grand Canyon",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Titanic",
+    "industry": "Movie - Romance"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Bohemian Rhapsody",
+    "industry": "Song - Queen"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Boeing 777",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "BMW M3",
+    "industry": "Car - BMW"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "Bengal",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Rolling in the Deep",
+    "industry": "Song - Adele"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Pulp Fiction",
+    "industry": "Movie - Crime"
+  },
+  {
+    "name": "Eiffel Tower",
+    "industry": "Tourist Place - France"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "MiG-29",
+    "industry": "Airplane - Mikoyan"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "Orca 2",
+    "industry": "LLM - Microsoft"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "LLaMA 2",
+    "industry": "LLM - Meta"
+  },
+  {
+    "name": "Mount Everest",
+    "industry": "Tourist Place - Nepal"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Bulldog",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Boeing 777",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Gemini",
+    "industry": "LLM - Google DeepMind"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Ragdoll",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Boxer",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "LLaMA 2",
+    "industry": "LLM - Meta"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Ford Mustang",
+    "industry": "Car - Ford"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "MiG-29",
+    "industry": "Airplane - Mikoyan"
+  },
+  {
+    "name": "Lamborghini Aventador",
+    "industry": "Car - Lamborghini"
+  },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Robonaut",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Frozen",
+    "industry": "Movie - Animation"
+  },
+  {
+    "name": "Shape of You",
+    "industry": "Song - Ed Sheeran"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Curiosity Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Abyssinian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Curiosity Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Ford Mustang",
+    "industry": "Car - Ford"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "industry": "Airplane - General Dynamics"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Titanic",
+    "industry": "Movie - Romance"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Rottweiler",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Machu Picchu",
+    "industry": "Tourist Place - Peru"
+  },
+  {
+    "name": "Boeing 747",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Porsche 911",
+    "industry": "Car - Porsche"
+  },
+  {
+    "name": "Ferrari LaFerrari",
+    "industry": "Car - Ferrari"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Stairway to Heaven",
+    "industry": "Song - Led Zeppelin"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "industry": "Car - Bugatti"
+  },
+  {
+    "name": "Taj Mahal",
+    "industry": "Tourist Place - India"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "Boxer",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Eiffel Tower",
+    "industry": "Tourist Place - France"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Golden Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Boxer",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Persian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Lamborghini Aventador",
+    "industry": "Car - Lamborghini"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Concorde",
+    "industry": "Airplane - British-French"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Boxer",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Poodle",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Airbus A320",
+    "industry": "Airplane - Airbus"
+  },
+  {
+    "name": "Machu Picchu",
+    "industry": "Tourist Place - Peru"
+  },
+  {
+    "name": "Mercedes-Benz G-Class",
+    "industry": "Car - Mercedes-Benz"
+  },
+  {
+    "name": "Orca 2",
+    "industry": "LLM - Microsoft"
+  },
+  {
+    "name": "Bell X-1",
+    "industry": "Airplane - Bell Aircraft"
+  },
+  {
+    "name": "Big Ben",
+    "industry": "Tourist Place - UK"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Porsche 911",
+    "industry": "Car - Porsche"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Lamborghini Aventador",
+    "industry": "Car - Lamborghini"
+  },
+  {
+    "name": "Rottweiler",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Command R+",
+    "industry": "LLM - Cohere"
+  },
+  {
+    "name": "Mount Everest",
+    "industry": "Tourist Place - Nepal"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "Statue of Liberty",
+    "industry": "Tourist Place - USA"
+  },
+  {
+    "name": "Savannah",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Siamese",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "Gladiator",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Bohemian Rhapsody",
+    "industry": "Song - Queen"
+  },
+  {
+    "name": "Siamese",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Atlas",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Orca 2",
+    "industry": "LLM - Microsoft"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "The Godfather",
+    "industry": "Movie - Crime Drama"
+  },
+  {
+    "name": "Bad Guy",
+    "industry": "Song - Billie Eilish"
+  },
+  {
+    "name": "Boston Dynamics Spot",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Scottish Fold",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Boston Dynamics Spot",
+    "industry": "Robot - Boston Dynamics"
+  },
+  {
+    "name": "Ford Mustang",
+    "industry": "Car - Ford"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Porsche 911",
+    "industry": "Car - Porsche"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Colosseum",
+    "industry": "Tourist Place - Italy"
+  },
+  {
+    "name": "Sophia",
+    "industry": "Robot - Hanson Robotics"
+  },
+  {
+    "name": "Thriller",
+    "industry": "Song - Michael Jackson"
+  },
+  {
+    "name": "Bulldog",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Labrador Retriever",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Sphynx",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Imagine",
+    "industry": "Song - John Lennon"
+  },
+  {
+    "name": "MiG-29",
+    "industry": "Airplane - Mikoyan"
+  },
+  {
+    "name": "Taj Mahal",
+    "industry": "Tourist Place - India"
+  },
+  {
+    "name": "Great Wall of China",
+    "industry": "Tourist Place - China"
+  },
+  {
+    "name": "Boeing 777",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Nao",
+    "industry": "Robot - SoftBank Robotics"
+  },
+  {
+    "name": "Machu Picchu",
+    "industry": "Tourist Place - Peru"
+  },
+  {
+    "name": "Pulp Fiction",
+    "industry": "Movie - Crime"
+  },
+  {
+    "name": "Hotel California",
+    "industry": "Song - Eagles"
+  },
+  {
+    "name": "Aibo",
+    "industry": "Robot - Sony"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Maine Coon",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Dachshund",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Persian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Persian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Hey Jude",
+    "industry": "Song - The Beatles"
+  },
+  {
+    "name": "Robonaut",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "Command R+",
+    "industry": "LLM - Cohere"
+  },
+  {
+    "name": "Ford Mustang",
+    "industry": "Car - Ford"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "industry": "Tourist Place - Brazil"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Taj Mahal",
+    "industry": "Tourist Place - India"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "Yi 34B",
+    "industry": "LLM - 01.AI"
+  },
+  {
+    "name": "Boeing 747",
+    "industry": "Airplane - Boeing"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Mistral 7B",
+    "industry": "LLM - Mistral AI"
+  },
+  {
+    "name": "Chevrolet Camaro",
+    "industry": "Car - Chevrolet"
+  },
+  {
+    "name": "LLaMA 2",
+    "industry": "LLM - Meta"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "Bulldog",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Inception",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Interstellar",
+    "industry": "Movie - Sci-Fi"
+  },
+  {
+    "name": "Orca 2",
+    "industry": "LLM - Microsoft"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Porsche 911",
+    "industry": "Car - Porsche"
+  },
+  {
+    "name": "Perseverance Rover",
+    "industry": "Robot - NASA"
+  },
+  {
+    "name": "F-22 Raptor",
+    "industry": "Airplane - Lockheed Martin"
+  },
+  {
+    "name": "Audi R8",
+    "industry": "Car - Audi"
+  },
+  {
+    "name": "Avengers: Endgame",
+    "industry": "Movie - Action"
+  },
+  {
+    "name": "Gemini",
+    "industry": "LLM - Google DeepMind"
+  },
+  {
+    "name": "Kismet",
+    "industry": "Robot - MIT"
+  },
+  {
+    "name": "Persian",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "British Shorthair",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "ChatGPT",
+    "industry": "LLM - OpenAI"
+  },
+  {
+    "name": "Tesla Model S",
+    "industry": "Car - Tesla"
+  },
+  {
+    "name": "British Shorthair",
+    "industry": "Cat - Breed"
+  },
+  {
+    "name": "Nao",
+    "industry": "Robot - SoftBank Robotics"
+  },
+  {
+    "name": "Yorkshire Terrier",
+    "industry": "Dog - Breed"
+  },
+  {
+    "name": "Forrest Gump",
+    "industry": "Movie - Drama"
+  },
+  {
+    "name": "German Shepherd",
+    "industry": "Dog - Breed"
+  }
+]
