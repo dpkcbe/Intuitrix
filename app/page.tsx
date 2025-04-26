@@ -2,10 +2,11 @@
 
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { useCallback, useState } from 'react';
+import { useCallback, useState, useRef, useEffect } from 'react';
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import type { Container, Engine } from "tsparticles-engine";
+import customers from '../public/Assets/searchResults.json'
 
 import {
   MagnifyingGlassIcon,
@@ -17,12 +18,30 @@ import {
   SparklesIcon,
   BoltIcon,
   CubeTransparentIcon,
+  ShieldExclamationIcon,
 } from '@heroicons/react/24/outline';
+
+// Helper to highlight search term in a string
+function highlightMatch(text: string, query: string) {
+  if (!query) return text;
+  const regex = new RegExp(`(${query})`, 'ig');
+  return text.split(regex).map((part, i) =>
+    regex.test(part) ? (
+      <span key={i} className="text-primary font-semibold">{part}</span>
+    ) : (
+      part
+    )
+  );
+}
 
 export default function Home() {
   const [email, setEmail] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [activeFeature, setActiveFeature] = useState<number | null>(null);
+  const [customerSearch, setCustomerSearch] = useState('');
+  const [searchTime, setSearchTime] = useState<number | null>(null);
+  const [showTime, setShowTime] = useState(false);
+  const searchTimeout = useRef<NodeJS.Timeout | null>(null);
 
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -51,6 +70,36 @@ export default function Home() {
   const particlesInit = useCallback(async (engine: Engine) => {
     await loadSlim(engine);
   }, []);
+
+  // Calculate filteredCustomers and time taken
+  useEffect(() => {
+    if (customerSearch) {
+      const start = performance.now();
+      // Filtering logic
+      customers.filter(
+        c =>
+          c.name.toLowerCase().includes(customerSearch.toLowerCase()) ||
+          c.industry.toLowerCase().includes(customerSearch.toLowerCase())
+      );
+      const end = performance.now();
+      setSearchTime(end - start);
+      setShowTime(true);
+      if (searchTimeout.current) clearTimeout(searchTimeout.current);
+      searchTimeout.current = setTimeout(() => setShowTime(false), 1500);
+    } else {
+      setSearchTime(null);
+      setShowTime(false);
+    }
+    // eslint-disable-next-line
+  }, [customerSearch]);
+
+  function getFilteredCustomers() {
+    return customers.filter(
+      c =>
+        c.name.toLowerCase().includes(customerSearch.toLowerCase()) ||
+        c.industry.toLowerCase().includes(customerSearch.toLowerCase())
+    );
+  }
 
   return (
     <main className="min-h-screen bg-black text-white relative overflow-hidden">
@@ -200,8 +249,8 @@ export default function Home() {
         ))}
       </div>
       
-      {/* Hero Section with Search Theme */}
-      <div className="relative min-h-screen flex items-center justify-center">
+      {/* Hero Section with Google-like Customer Search */}
+      <div className="relative min-h-screen flex flex-col items-center justify-center">
         <div className="absolute inset-0 bg-gradient-to-r from-black via-gray-900/10 to-black"></div>
         <div className="container mx-auto px-4 z-10">
           <motion.div
@@ -231,6 +280,77 @@ export default function Home() {
             >
               Elevate your search experience with <span className="text-red-500 font-semibold">AI-powered Search</span> solutions
             </motion.p>
+            {/* Google-like Customer Search */}
+            <div className="flex flex-col items-center mt-12">
+              <div className="relative w-full max-w-2xl">
+                <input
+                  type="text"
+                  value={customerSearch}
+                  onChange={e => setCustomerSearch(e.target.value)}
+                  placeholder="Search customers..."
+                  className="w-full px-6 py-4 rounded-full bg-gray-900/80 border border-gray-800 focus:border-primary/70 focus:ring-2 focus:ring-primary/30 outline-none text-white text-lg shadow-lg transition-all"
+                  style={{ boxShadow: '0 2px 24px 0 rgba(0,0,0,0.15)' }}
+                />
+                <MagnifyingGlassIcon className="w-6 h-6 text-gray-400 absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none" />
+              </div>
+              {/* Animated Results */}
+              <AnimatePresence>
+                {customerSearch && (
+                  <motion.div
+                    key="search-results"
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    transition={{ duration: 0.18 }}
+                    className="w-full max-w-2xl mt-2 bg-black/95 rounded-xl shadow-lg border border-gray-800 divide-y divide-gray-800 text-left overflow-hidden relative"
+                  >
+                    {/* Time badge */}
+                    <AnimatePresence>
+                      {showTime && searchTime !== null && (
+                        <motion.div
+                          key="search-time"
+                          initial={{ opacity: 0, y: -10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -10 }}
+                          transition={{ duration: 0.3 }}
+                          className="absolute right-4 top-6 bg-gray-900/80 text-green-400 px-4 py-1 rounded-full text-xs font-semibold shadow-neon-soft z-10 flex items-center gap-1"
+                          style={{
+                            backdropFilter: 'blur(6px)',
+                            border: '1px solid #22c55e', // Tailwind green-500
+                            letterSpacing: '0.03em'
+                          }}
+                        >
+                          <span>Time taken:</span>
+                          <span className="font-mono">
+                            {searchTime < 1
+                              ? `${searchTime.toFixed(3)}s`
+                              : `${(searchTime / 1000).toFixed(3)}s`}
+                          </span>
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                    {getFilteredCustomers().length > 0 ? (
+                      getFilteredCustomers().map((c, i) => (
+                        <motion.div
+                          key={c.name + i}
+                          whileHover={{ backgroundColor: "rgba(30,30,30,0.7)" }}
+                          className="px-6 py-4 cursor-pointer transition-colors"
+                        >
+                          <div className="font-medium text-white">
+                            {highlightMatch(c.name, customerSearch)}
+                          </div>
+                          <div className="text-sm text-gray-400">
+                            {highlightMatch(c.industry, customerSearch)}
+                          </div>
+                        </motion.div>
+                      ))
+                    ) : (
+                      <div className="px-6 py-4 text-gray-400">No customers found.</div>
+                    )}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
             <div className="flex items-center justify-center gap-4 mt-8">
               <motion.button
                 whileHover={{ scale: 1.02 }}
@@ -311,7 +431,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8 }}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
           >
             <FeatureCard
               icon={<MagnifyingGlassIcon className="h-8 w-8 text-primary/80" />}
@@ -333,6 +453,14 @@ export default function Home() {
               description="Intelligent vector graphics search for your design assets"
               isActive={activeFeature === 2}
               onClick={() => setActiveFeature(activeFeature === 2 ? null : 2)}
+            />
+            {/* NSFW Classifier Product */}
+            <FeatureCard
+              icon={<ShieldExclamationIcon className="h-8 w-8 text-primary/80" />}
+              title="NSFW Classifier"
+              description="Detect and filter NSFW (Not Safe For Work) content in images, text, or any data. Help your company stay compliant and safe with our AI-powered classifier."
+              isActive={activeFeature === 3}
+              onClick={() => setActiveFeature(activeFeature === 3 ? null : 3)}
             />
           </motion.div>
         </div>
