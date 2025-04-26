@@ -287,7 +287,7 @@ export default function Home() {
                   type="text"
                   value={customerSearch}
                   onChange={e => setCustomerSearch(e.target.value)}
-                  placeholder="Search customers..."
+                  placeholder="Search Anything..."
                   className="w-full px-6 py-4 rounded-full bg-gray-900/80 border border-gray-800 focus:border-primary/70 focus:ring-2 focus:ring-primary/30 outline-none text-white text-lg shadow-lg transition-all"
                   style={{ boxShadow: '0 2px 24px 0 rgba(0,0,0,0.15)' }}
                 />
@@ -345,7 +345,7 @@ export default function Home() {
                         </motion.div>
                       ))
                     ) : (
-                      <div className="px-6 py-4 text-gray-400">No customers found.</div>
+                      <div className="px-6 py-4 text-gray-400">Search result not found :(</div>
                     )}
                   </motion.div>
                 )}
