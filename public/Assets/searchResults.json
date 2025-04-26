@@ -1,4 +1,6 @@
 [
+    { "name": "Deepak", "industry" : "Cofounder - Intuitrix"},
+    { "name": "Aswath", "industry": "Cofounder - Intuitrix"},
     { "name": "Bohemian Rhapsody", "industry": "Song - Queen" },
     { "name": "Eiffel Tower", "industry": "Tourist Place - France" },
     { "name": "ChatGPT", "industry": "LLM - OpenAI" },
