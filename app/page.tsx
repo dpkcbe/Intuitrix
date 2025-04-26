@@ -19,6 +19,9 @@ import {
   BoltIcon,
   CubeTransparentIcon,
   ShieldExclamationIcon,
+  MicrophoneIcon,
+  DocumentTextIcon,
+  GlobeAltIcon,
 } from '@heroicons/react/24/outline';
 
 // Helper to highlight search term in a string
@@ -287,7 +290,7 @@ export default function Home() {
                   type="text"
                   value={customerSearch}
                   onChange={e => setCustomerSearch(e.target.value)}
-                  placeholder="Search customers..."
+                  placeholder="Search Anything..."
                   className="w-full px-6 py-4 rounded-full bg-gray-900/80 border border-gray-800 focus:border-primary/70 focus:ring-2 focus:ring-primary/30 outline-none text-white text-lg shadow-lg transition-all"
                   style={{ boxShadow: '0 2px 24px 0 rgba(0,0,0,0.15)' }}
                 />
@@ -345,7 +348,7 @@ export default function Home() {
                         </motion.div>
                       ))
                     ) : (
-                      <div className="px-6 py-4 text-gray-400">No customers found.</div>
+                      <div className="px-6 py-4 text-gray-400">Search result not found :(</div>
                     )}
                   </motion.div>
                 )}
@@ -462,6 +465,27 @@ export default function Home() {
               isActive={activeFeature === 3}
               onClick={() => setActiveFeature(activeFeature === 3 ? null : 3)}
             />
+            <FeatureCard
+              icon={<MicrophoneIcon className="h-8 w-8 text-primary/80" />}
+              title="Audio Search"
+              description="Search and analyze audio content using AI-powered speech recognition."
+              isActive={activeFeature === 4}
+              onClick={() => setActiveFeature(activeFeature === 4 ? null : 4)}
+            />
+            <FeatureCard
+              icon={<DocumentTextIcon className="h-8 w-8 text-primary/80" />}
+              title="Document Summarizer"
+              description="Get instant summaries of long documents and articles."
+              isActive={activeFeature === 5}
+              onClick={() => setActiveFeature(activeFeature === 5 ? null : 5)}
+            />
+            <FeatureCard
+              icon={<GlobeAltIcon className="h-8 w-8 text-primary/80" />}
+              title="Multilingual Search"
+              description="Search across multiple languages seamlessly."
+              isActive={activeFeature === 6}
+              onClick={() => setActiveFeature(activeFeature === 6 ? null : 6)}
+            />
           </motion.div>
         </div>
       </div>
@@ -532,6 +556,7 @@ export default function Home() {
         </div>
       </div>
 
+
       {/* Footer with Animated Border */}
       <footer className="bg-black/90 py-12 relative">
         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gray-700/20 to-transparent"></div>
@@ -585,6 +610,15 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      <div className="flex justify-center mt-6">
+        <a
+          href="/dashboard"
+          className="inline-block px-6 py-3 bg-primary/80 text-white rounded-full font-semibold shadow-neon-soft hover:bg-primary transition-all duration-200"
+        >
+          We also provide a dedicated dashboard for you &rarr;
+        </a>
+      </div>
     </main>
   );
 }
