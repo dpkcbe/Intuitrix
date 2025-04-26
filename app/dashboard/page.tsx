@@ -98,12 +98,12 @@ const recentActivity = [
 
 // Sidebar analytics nav options
 const analyticsNav = [
+  { key: 'home', label: 'Home', icon: <HomeIcon className="h-6 w-6" />, href: '/' },
   { key: 'stats', label: 'Stats', icon: <ArrowTrendingUpIcon className="h-6 w-6" /> },
   { key: 'bar', label: 'Bar Chart', icon: <ChartBarIcon className="h-6 w-6" /> },
   { key: 'pie', label: 'Pie Chart', icon: <ChartPieIcon className="h-6 w-6" /> },
   { key: 'features', label: 'Features', icon: <DocumentTextIcon className="h-6 w-6" /> },
   { key: 'activity', label: 'Recent Activity', icon: <ArrowPathIcon className="h-6 w-6" /> },
-  { key: 'home', label: 'Home', icon: <HomeIcon className="h-6 w-6" />, href: '/' },
 ];
 
 export default function Dashboard() {
