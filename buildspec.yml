@@ -1,0 +1,29 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      docker: 20
+    commands:
+      - echo Installing Trivy...
+      - curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh
+  pre_build:
+    commands:
+      - echo Logging into Amazon ECR...
+      - $(aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com)
+      - echo Running SonarQube Analysis...
+      - sonar-scanner -Dsonar.projectKey=Intuitrix -Dsonar.sources=. -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=$SONAR_TOKEN
+  build:
+    commands:
+      - echo Building Docker image...
+      - docker build -t intuitrix .
+      - echo Scanning image with Trivy...
+      - ./trivy image intuitrix
+      - docker tag intuitrix:latest $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/intuitrix:latest
+  post_build:
+    commands:
+      - echo Pushing Docker image to ECR...
+      - docker push $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/intuitrix:latest
+artifacts:
+  files:
+    - imagedefinitions.json
