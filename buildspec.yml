@@ -5,6 +5,11 @@ phases:
     runtime-versions:
       java: corretto17
     commands:
+      - echo Installing SonarQube Scanner...
+      - curl -sSLo sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-5.0.1.3006-linux.zip
+      - unzip sonar-scanner.zip
+      - mv sonar-scanner-5.0.1.3006-linux sonar-scanner
+      - export PATH=$PATH:$(pwd)/sonar-scanner/bin
       - echo Installing Trivy...
       - curl -sfL https://raw.githubusercontent.com/aquasecurity/trivy/main/contrib/install.sh | sh
   pre_build:
