@@ -1,10 +1,10 @@
 # Use official Node.js image
-FROM node:18-alpine
+FROM public.ecr.aws/docker/library/node:18-alpine
 
 # Set working directory
 WORKDIR /app
 
-# Install dependencies
+# Install dependenciess
 COPY package*.json ./
 RUN npm ci
 
