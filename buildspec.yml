@@ -24,7 +24,7 @@ phases:
       - echo Building Docker image...
       - docker build -t intuitrix .
       - echo Scanning image with Trivy...
-      - ./trivy image intuitrix
+      - trivy image intuitrix
       - docker tag intuitrix:latest $AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/intuitrix:latest
   post_build:
     commands:
