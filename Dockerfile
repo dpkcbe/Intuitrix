@@ -4,7 +4,7 @@ FROM public.ecr.aws/docker/library/node:18-alpine
 # Set working directory
 WORKDIR /app
 
-# Install dependenciess
+# Install dependencies
 COPY package*.json ./
 RUN npm ci
 
@@ -17,8 +17,8 @@ RUN npm run build
 # Set environment
 ENV NODE_ENV=production
 
-# Expose the port Next.js runs on
+# Expose the port the app runs on
 EXPOSE 3000
 
-# Start the app
-CMD ["npm", "start"]
+# Start the Next.js app
+CMD ["npx", "next", "start", "-p", "3000"]
