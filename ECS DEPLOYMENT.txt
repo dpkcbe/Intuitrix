@@ -1,0 +1,11 @@
+ALL FILES IN D:/INTUITRIX
+
+Create IAM role - ecsTaskExecutionRole - 
+
+aws ecs create-cluster --cluster-name intuitrix-cluster
+
+aws ecs register-task-definition --cli-input-json file://intuitrix-taskdef.json
+
+aws ecs create-service --cluster intuitrix-cluster --service-name intuitrix-web-service --task-definition intuitrix-web-app --launch-type FARGATE --network-configuration "awsvpcConfiguration={subnets=[subnet-0xxxxxxxx7],securityGroups=[sg-0axxxxxxxxx61c],assignPublicIp=ENABLED}" --desired-count 1
+
+GO TO TASKS IN ECS AND OPEN <PUBLIC IP>:3000
